@@ -1,0 +1,9 @@
+# requirements for the minimal project
+opencv-python
+numpy
+Pillow
+mss
+python-chess
+customtkinter; sys_platform == "win32"
+# customtkinter is optional; Tkinter is included with Python but pip package is different.
+# If you don't use CustomTkinter, remove the platform-specific line.
